@@ -154,10 +154,12 @@ clear_combatants
 
 # Create meals
 create_meal "Pasta" "Italian" 25.99 "MED"
-create_meal "Tacos" "Mexican" 15.99 "LOW"
-create_meal "Dango" "Japanese" 5.99 "HIGH"
-create_meal "White Rice" "Chinese" 20.00 "LOW"
-create_meal "Curry" "Indian" 44.00 "MED"
+create_meal "Hamburger" "American" 10.00 "LOW"
+create_meal "Sushi" "Japanese" 30.00 "HIGH"
+create_meal "Pizza" "Italian" 12.00 "LOW"
+create_meal "Bibimbap" "Korean" 22.00 "MED"
+create_meal "Pad Thai" "Thai" 18.00 "MED"
+
 
 delete_meal_by_id 4
 
