@@ -46,7 +46,7 @@ check_db() {
   fi
 }
 
-
+get_meal_by_name(){
   echo "Getting meal by name ($meal_name)..."
   response=$(curl -s -X GET "$BASE_URL/get-meal-by-name/$meal_name")
   if echo "$response" | grep -q '"status": "success"'; then

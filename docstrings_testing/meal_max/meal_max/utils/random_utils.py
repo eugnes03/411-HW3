@@ -1,9 +1,9 @@
 import logging
 import requests
 
-from meal_max.utils.logger import configurelogger
+from meal_max.utils.logger import configure_logger
 
-logger = logging.getLogger(__name)
+logger = logging.getLogger(__name__)
 configure_logger(logger)
 
 
